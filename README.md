@@ -1,1 +1,2 @@
 # kid-caravan-kaspper-ui
+kid-caravan-kaspper-ui é um sistema web desenvolvido como parte de um trabalho solicitado pela Academia Kaspper. O objetivo deste projeto é otimizar o transporte escolar para pais e seus filhos. Ele oferece uma plataforma para os pais se registrarem e oferecerem ou solicitarem caronas para seus filhos, com o intuito de tornar o processo de transporte escolar mais eficiente.
