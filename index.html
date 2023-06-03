@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KidCaravan</title>
+    <style>
+        .navbar {
+            background: linear-gradient(to right, #a067d6, #c155cf);
+        }
+
+        #hero {
+            height: 500px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #hero .carousel-inner {
+            height: 100%;
+        }
+
+        #hero .carousel-item {
+            height: 100%;
+        }
+
+        #hero .carousel-item img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        #hero .carousel-control-prev,
+        #hero .carousel-control-next {
+            width: 10%;
+            opacity: 0.7;
+        }
+
+        #hero .carousel-control-prev-icon,
+        #hero .carousel-control-next-icon {
+            height: 100%;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #hero .carousel-control-prev {
+            left: 0;
+        }
+
+        #hero .carousel-control-next {
+            right: 0;
+        }
+
+        #hero .carousel-indicators {
+            bottom: 10px;
+        }
+
+        #hero .carousel-indicators li {
+            width: 12px;
+            height: 12px;
+            margin: 0 4px;
+            border-radius: 50%;
+        }
+
+        #login,
+        #cadastre-se,
+        #depoimentos,
+        #quem-somos,
+        #como-funciona {
+            padding: 50px 0;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">KidCaravan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#como-funciona">KidCaravan</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-image">
+                    <img src="./img/criancas.jpg" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-caption">
+                    <h2 class="display-4">KidCaravan - Compartilhando caminhos, facilitando vidas.</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-image">
+                    <img src="./img/transporte.jpg" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-caption">
+                    <h2 class="display-4">Facilite seu trajeto, venha para KidCaravan você também.</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-image">
+                    <img src="./img/escola.jpg" class="d-block w-100" alt="Slide 3">
+                </div>
+                <div class="carousel-caption">
+                    <h2 class="display-4">Chegue à escola com segurança e praticidade com KidCaravan.</h2>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#hero" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#hero" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </section>
+
+
+
+    <section id="quem-somos" class="py-5">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <p>A KidCaravan é uma plataforma inovadora que tem como objetivo principal facilitar o compartilhamento de
+                caronas entre pais e motoristas, proporcionando um transporte seguro e conveniente para crianças em
+                idade escolar. Nosso sistema foi criado pensando em simplificar a rotina dos pais, reduzir o tráfego nas
+                ruas e contribuir para a preservação do meio ambiente.</p>
+
+            <p>Através da KidCaravan, os pais podem encontrar outros pais ou motoristas confiáveis que estejam
+                realizando trajetos semelhantes para a escola. Com apenas alguns cliques, é possível estabelecer
+                parcerias e criar uma rede de compartilhamento de caronas eficiente e segura.</p>
+
+            <p>Nossa plataforma é projetada para garantir a tranquilidade dos pais, oferecendo recursos como verificação
+                de antecedentes dos motoristas, avaliações e comentários dos usuários, além de um sistema de mensagens
+                integrado para facilitar a comunicação entre os envolvidos.</p>
+
+            <p>Estamos comprometidos em tornar a experiência de transporte escolar mais prática, sustentável e
+                econômica. Com a KidCaravan, pais e motoristas podem unir forças, compartilhar caminhos e contribuir
+                para a construção de uma comunidade mais conectada e colaborativa.</p>
+
+            <p>Junte-se a nós e faça parte dessa nova maneira de se locomover, onde o compartilhamento de caronas se
+                transforma em uma experiência segura, confiável e amigável para todos os envolvidos. KidCaravan -
+                Compartilhando caminhos, facilitando vidas.</p>
+        </div>
+    </section>
+
+
+
+    <section id="depoimentos" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Depoimentos</h2>
+            <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/homem1.png" class="card-img-top" alt="Foto do Depoente 1">
+                                        <h5 class="card-title">João Silva</h5>
+                                        <p class="card-text">O KidCaravan facilitou muito a minha vida como pai. Agora
+                                            posso organizar o transporte escolar do meu filho de forma prática e segura.
+                                            Recomendo a todos!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/mulher1.jpg" class="card-img-top" alt="Foto do Depoente 2">
+                                        <h5 class="card-title">Maria Souza</h5>
+                                        <p class="card-text">Estou muito satisfeita com o KidCaravan. Encontrei caronas
+                                            confiáveis e economizei tempo e dinheiro no transporte dos meus filhos para
+                                            a escola. Excelente plataforma!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/homem2.jpg" class="card-img-top" alt="Foto do Depoente 3">
+                                        <h5 class="card-title">Pedro Santos</h5>
+                                        <p class="card-text">Não poderia estar mais satisfeito com o KidCaravan. Conheci
+                                            outros pais da escola dos meus filhos e conseguimos estabelecer uma rede de
+                                            caronas segura e eficiente. Recomendo a todos!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img src="./img/mulher2.png" class="card-img-top" alt="Foto do Depoente 4">
+                                        <h5 class="card-title">Ana Oliveira</h5>
+                                        <p class="card-text">KidCaravan tornou a ida e volta da escola dos meus filhos
+                                            muito mais tranquila. Além de economizar tempo, eles fazem amizades no
+                                            caminho. Uma iniciativa incrível!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselDepoimentos" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselDepoimentos" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="como-funciona" class="py-5">
+        <div class="container">
+            <h2>Como Funciona</h2>
+            <ol>
+                <li>Passo 1: Faça o login na plataforma</li>
+                <li>Passo 2: Cadastre-se como pai ou motorista</li>
+                <li>Passo 3: Encontre caronas disponíveis para a escola do seu filho</li>
+                <li>Passo 4: Entre em contato com outros pais/motoristas para combinar os detalhes</li>
+                <li>Passo 5: Aproveite o compartilhamento de caronas e facilite a rotina escolar!</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="login" class="py-5">
+        <div class="container">
+            <h2>Login</h2>
+            <div class="accordion" id="accordionLogin">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingLogin">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLogin" aria-expanded="false" aria-controls="collapseLogin">
+                            Clique aqui para fazer login
+                        </button>
+                    </h2>
+                    <div id="collapseLogin" class="accordion-collapse collapse" aria-labelledby="headingLogin"
+                        data-bs-parent="#accordionLogin">
+                        <div class="accordion-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Senha</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <button type="button" class="btn btn-primary"
+                                    onclick="window.location.href='registros.html'">Login</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cadastre-se" class="py-5">
+        <div class="container">
+            <h2>Cadastre-se</h2>
+            <div class="accordion" id="accordionCadastro">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingCadastro">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseCadastro" aria-expanded="false" aria-controls="collapseCadastro">
+                            Clique aqui para se cadastrar
+                        </button>
+                    </h2>
+                    <div id="collapseCadastro" class="accordion-collapse collapse" aria-labelledby="headingCadastro"
+                        data-bs-parent="#accordionCadastro">
+                        <div class="accordion-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Nome</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Senha</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <button type="button" class="btn btn-primary"
+                                    onclick="window.location.href='registros.html'">Cadastre-se</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
